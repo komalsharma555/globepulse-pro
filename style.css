@@ -1,0 +1,76 @@
+/*
+Theme Name: GlobePulse Pro
+Theme URI: https://globelpulse.com/
+Author: Komal Sharma
+Author URI: https://globelpulse.com/
+Description: GlobePulse Pro is a modern, fast, SEO-friendly WordPress News & Magazine Theme with Dark Mode, Breaking News Ticker, Featured Posts, AdSense Ready Layout and Responsive Design.
+Version: 1.0.0
+Requires at least: 6.8
+Tested up to: 6.9
+Requires PHP: 8.1
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: globepulse-pro
+Tags: news, magazine, blog, custom-logo, custom-menu, featured-images, editor-style, threaded-comments, translation-ready, sticky-post, one-column, two-columns, right-sidebar
+*/
+
+/* ======================================
+   GlobePulse Pro
+   Main Theme Styles
+====================================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:Arial,Helvetica,sans-serif;
+    font-size:16px;
+    line-height:1.7;
+    background:#f5f7fb;
+    color:#222;
+}
+
+a{
+    color:#0d6efd;
+    text-decoration:none;
+    transition:.3s;
+}
+
+a:hover{
+    color:#ff3d00;
+}
+
+img{
+    max-width:100%;
+    height:auto;
+    display:block;
+}
+
+.container{
+    width:1200px;
+    max-width:95%;
+    margin:auto;
+}
+
+.site-header{
+    background:#fff;
+    box-shadow:0 2px 12px rgba(0,0,0,.08);
+}
+
+.site-content{
+    padding:40px 0;
+}
+
+.site-footer{
+    background:#111827;
+    color:#fff;
+    padding:50px 0;
+    text-align:center;
+}
