@@ -1,0 +1,140 @@
+/* ===================================
+   GlobePulse Pro Responsive Styles
+=================================== */
+
+/* Large Tablets */
+
+@media (max-width:1024px){
+
+.container{
+    width:95%;
+}
+
+.gp-hero{
+    grid-template-columns:1fr;
+}
+
+.gp-post-grid{
+    grid-template-columns:repeat(2,1fr);
+}
+
+.gp-layout{
+    display:block;
+}
+
+.gp-sidebar{
+    margin-top:30px;
+}
+
+}
+
+/* Tablets */
+
+@media (max-width:768px){
+
+.gp-main-header{
+    padding:15px 0;
+}
+
+.primary-menu{
+    flex-direction:column;
+    gap:12px;
+}
+
+.gp-topbar{
+    text-align:center;
+}
+
+.gp-post-grid{
+    grid-template-columns:1fr;
+}
+
+.hero-content h1{
+    font-size:28px;
+}
+
+.gp-card-content h2{
+    font-size:20px;
+}
+
+.gp-footer{
+    text-align:center;
+}
+
+.footer-top{
+    display:block;
+}
+
+.footer-about,
+.footer-menu,
+.footer-social{
+    margin-bottom:25px;
+}
+
+}
+
+/* Mobile */
+
+@media (max-width:480px){
+
+body{
+    font-size:15px;
+}
+
+.container{
+    width:94%;
+}
+
+.gp-logo img{
+    max-height:50px;
+}
+
+.hero-content{
+    padding:15px;
+}
+
+.hero-content h1{
+    font-size:22px;
+}
+
+.gp-card-content{
+    padding:15px;
+}
+
+.gp-card-content h2{
+    font-size:18px;
+}
+
+.gp-widget{
+    padding:15px;
+}
+
+button,
+input,
+textarea{
+    width:100%;
+}
+
+img{
+    height:auto;
+}
+
+}
+
+/* Extra Small */
+
+@media (max-width:360px){
+
+.hero-content h1{
+    font-size:20px;
+}
+
+.primary-menu li a{
+    font-size:15px;
+}
+
+.gp-card-content h2{
+    font-size:17px;
+}
+
+}
