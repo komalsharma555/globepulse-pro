@@ -1,0 +1,143 @@
+/* ===================================
+   GlobePulse Pro Main Styles
+=================================== */
+
+:root{
+    --primary:#0d6efd;
+    --secondary:#ff3d00;
+    --dark:#111827;
+    --light:#ffffff;
+    --gray:#f5f7fb;
+    --text:#333333;
+    --radius:12px;
+    --shadow:0 10px 30px rgba(0,0,0,.08);
+}
+
+body{
+    background:var(--gray);
+    color:var(--text);
+    font-family:Arial,sans-serif;
+}
+
+/* Container */
+
+.container{
+    width:1200px;
+    max-width:95%;
+    margin:auto;
+}
+
+/* Header */
+
+.gp-header{
+    background:#fff;
+    position:sticky;
+    top:0;
+    z-index:999;
+    box-shadow:var(--shadow);
+}
+
+.gp-topbar{
+    background:var(--dark);
+    color:#fff;
+    padding:10px 0;
+}
+
+.gp-main-header{
+    background:#fff;
+    padding:18px 0;
+}
+
+.gp-logo img{
+    max-height:70px;
+}
+
+/* Menu */
+
+.primary-menu{
+    display:flex;
+    gap:25px;
+    list-style:none;
+}
+
+.primary-menu li a{
+    color:#222;
+    font-weight:600;
+}
+
+.primary-menu li a:hover{
+    color:var(--primary);
+}
+
+/* Hero */
+
+.gp-hero{
+    display:grid;
+    grid-template-columns:2fr 1fr;
+    gap:25px;
+    margin:30px 0;
+}
+
+.hero-left img{
+    border-radius:var(--radius);
+}
+
+.hero-content{
+    padding:20px;
+}
+
+.hero-content h1{
+    font-size:34px;
+    margin:15px 0;
+}
+
+/* Cards */
+
+.gp-post-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:25px;
+}
+
+.gp-post-card{
+    background:#fff;
+    border-radius:var(--radius);
+    overflow:hidden;
+    box-shadow:var(--shadow);
+}
+
+.gp-post-card img{
+    width:100%;
+}
+
+.gp-card-content{
+    padding:20px;
+}
+
+.gp-card-content h2{
+    font-size:22px;
+    margin:10px 0;
+}
+
+/* Sidebar */
+
+.gp-sidebar .gp-widget{
+    background:#fff;
+    margin-bottom:25px;
+    padding:20px;
+    border-radius:var(--radius);
+    box-shadow:var(--shadow);
+}
+
+/* Footer */
+
+.gp-footer{
+    background:var(--dark);
+    color:#fff;
+    margin-top:50px;
+    padding:50px 0;
+}
+
+.gp-footer a{
+    color:#fff;
+}
